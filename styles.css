@@ -1,0 +1,55 @@
+/* Reset default browser styles */
+body, h1, h2, p, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e8e6f0;
+    padding: 20px;
+
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
